@@ -49,6 +49,11 @@ store.dispatch(increment());
 store.dispatch(increment());
 store.dispatch(increment());
 
+store.dispatch(decrement());
+store.dispatch(decrement());
+store.dispatch(decrement());
+store.dispatch(decrement());
+
 ReactDOM.render(<App/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
